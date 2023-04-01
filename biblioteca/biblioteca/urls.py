@@ -31,7 +31,7 @@ route = routers.DefaultRouter()
 route.register(r'livros', livrosviewsets.LivrosViewSets, basename = "livros")
 route.register(r'revistas', revistasviewsets.RevistasViewSet, basename = "revistas")
 route.register(r'enciclopedias', enciclopediasviewsets.EnciclopediasViewSets, basename = "enciclopedias")
-route.register(r'dvd', dvdiasviewsets.DvdViewSets, basename = "dvd")
+route.register(r'dvds', dvdiasviewsets.DvdViewSets, basename = "dvd")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
