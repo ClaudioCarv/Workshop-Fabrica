@@ -20,10 +20,12 @@ from rest_framework import routers
 
 from livros.api import viewsets as livrosviewsets
 
+from revistas.api import viewsets as revistasviewsets
 
 route = routers.DefaultRouter()
 
 route.register(r'livros', livrosviewsets.LivrosViewSets, basename = "livros")
+route.register(r'revistas', revistasviewsets.RevistasViewSet, basename = "revistas")
 
 urlpatterns = [
     path('admin/', admin.site.urls),

@@ -10,4 +10,4 @@ class Livros(models.Model):
     estado = models.CharField(max_length=20)
     paginas = models.IntegerField()
     editora = models.CharField(max_length=300)
-    criado = models.DateField(auto_now_add=True)
+    criador = models.DateField(auto_now_add=True)
