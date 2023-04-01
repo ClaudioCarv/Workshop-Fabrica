@@ -1,5 +1,7 @@
-Esse é um projeto de uma biblioteca, onde você pode adicionar, remover e editar um livro.
+Esse é um projeto de uma biblioteca, onde você pode adicionar, remover e editar um livro, revista, enciclopedia e dvd.
 
-para adicionar um livro basta preencher os campos e em seguida clicar em "POST"
+Para adicionar alguns dos itens acima, basta clicar nele e preencher os campos necessários e logo em seguida clicar em "POST".
 
-para remover ou editar um livro é necessário copiar o seu ID e colar na url da página, após o "/"
+Contendo um exemplo em cada item da biblíoteca.
+
+Para remover ou editar um item é necessário copiar o seu ID e colar na url da página, após o "/" podendo remove-lo ou edita-lo.
