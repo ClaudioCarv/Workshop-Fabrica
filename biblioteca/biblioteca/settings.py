@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'livros',
     'revistas',
     'enciclopedias',
+    'dvd',
 ]
 
 MIDDLEWARE = [

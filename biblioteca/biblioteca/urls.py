@@ -24,11 +24,14 @@ from revistas.api import viewsets as revistasviewsets
 
 from enciclopedias.api import viewset as enciclopediasviewsets
 
+from dvd.api import viewset as dvdiasviewsets
+
 route = routers.DefaultRouter()
 
 route.register(r'livros', livrosviewsets.LivrosViewSets, basename = "livros")
 route.register(r'revistas', revistasviewsets.RevistasViewSet, basename = "revistas")
 route.register(r'enciclopedias', enciclopediasviewsets.EnciclopediasViewSets, basename = "enciclopedias")
+route.register(r'dvd', dvdiasviewsets.DvdViewSets, basename = "dvd")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
